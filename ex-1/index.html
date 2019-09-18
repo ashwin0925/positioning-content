@@ -5,17 +5,19 @@
 		<link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css">
 	</head>
 	<body>
-		<header class="header clearfix">			
+		<header class="header clearfix">
+			<div class="wrapper">			
 				<h1 class="logo">Logo</h1>
-			<!-- <h2 class="header">Header</h2> -->
 				<nav class="navigation">
-					<a href="home.html">Home</a>
-					<a href="#">About</a>
-					<a href="#">Contact us</a>
+					<a class="nav-foot" href="home.html">Home</a>
+					<a class="nav-foot" href="#">About</a>
+					<a  class="nav-foot" href="#">Contact us</a>
 				</nav>
+			</div>
 		</header>
 		<main>
 			<section class="section clearfix">
+				<div class="wrapper">
 				<article class="article">
 					<h2 class="header2">Heading</h2>
 					<div class="column1">
@@ -31,12 +33,23 @@
 						<img class="image" src="http://www.titikshapublicschool.com/wp-content/uploads/2018/11/developer-api.jpg">
 					</div>
 			</article>
+		</div>
 		</section>	
 		</main>
 
 		<footer class="footer">
-			<small class="footer-name">&copy; Copy rights reserved</small>
+			<div class="wrapper">
+				<small class="footer-name">&copy; Copy rights reserved</small>
+				<div class="left">
+					<nav>
+						<a class="nav-foot" href="#"><i class="fab fa-facebook"></i></a>
+						<a class="nav-foot" href="#"><i class="fab fa-twitter"></i></a>
+						<a class="nav-foot" href="#"><i class="fab fa-instagram"></i></a>
+					</nav>
+				</div>
+			</div>
 		</footer>
+		<script src="https://kit.fontawesome.com/5f556a3f29.js"></script>
 
 	</body>
 </html>
