@@ -110,11 +110,21 @@ a {
 
 .footer {
 	background :black;
-	padding: 50px;
-	text-align: center;
+	padding: 40px;
+	/*text-align: center;*/
 }
 
 .footer-name {
 	color: white;
 
+}
+
+
+.font-foot {
+	display: inline-block;
+	padding-left: 1000px;
+}
+
+.nav-foot {
+	margin-left: 20px;
 }
