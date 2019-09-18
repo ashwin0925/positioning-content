@@ -47,92 +47,105 @@ table {
 	border-spacing: 0;
 }
 
-/*My Style*/
+/*My style*/
 
-/*General*/
+/* General */
 
 .wrapper {
-	width: 1200px;
-	margin:0 auto;
-}
-
-
-/*Header*/
-
-.header {
-	background-color: black;
-	padding: 20px;
-}
-
-.logo {
-	font-size: 25px;
-	float: left;
-	color: white;
-}
-
-.navigation {
-	float: right;
-	font-size: 20px;
-}
-
-a {
-	text-decoration: none;
-	color: white;
-}
-
-.clearfix:before, .clearfix:after {
-	content:"";
-	display:table;
-}
-
-
-.clearfix:after {
-	clear:both;
-}
-
-
-/*Columns Section*/
-
-.header2 {
-	font-size: 30px;
-	padding-bottom: 10px;
-}
-
-.article {
-	margin: 50px 0;
-}
-
-
-.column1 {
-	width: 400px;
-	height: 400px;
-	float: left;
-	line-height: 2;
-}
-
-.image {
-	width: 400px;
-	height: 395px;
-	float: right;
-	padding-bottom: 50px;
-}
-
-/*Footer*/
-
-.footer {
-	background :black;
-	padding: 20px;
-	/*text-align: center;*/
-}
-
-.footer-name {
-	color: white;
-
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .left {
-	float: right;
+  float: left;
 }
-.nav-foot {
-	margin-left: 20px;
+
+.right {
+  float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.font {
+	font-family: 'Chilanka', cursive;
+}
+
+.header {
+  background: black;
+  line-height: 74px;
+}
+
+.logo {
+  color: white;
+  font-size: 34px;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 24px;
+}
+
+/*section*/
+
+.section-1 {
+  background: skyblue;
+  padding: 60px 0;
+}
+.column1 {
+  width: 50%;
+}
+.col1 {
+	padding-right: 40px;
+}
+
+.col2 {
+  padding-left: 40px;
+}
+
+.heading {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.article1 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.art-img {
+  width: 100%;
+}
+
+
+/*section 2*/
+
+.section-2 {
+	background: white;
+	padding: 60px 0;
+}
+
+/*footer*/
+
+footer {
+  background: black;
+  line-height: 60px;
+  color: white;
 }
