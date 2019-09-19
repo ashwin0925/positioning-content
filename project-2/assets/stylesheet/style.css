@@ -169,6 +169,9 @@ body {
 	margin-bottom: 40px;
 }
 
+.boxmain {
+	margin: 0 -3.5%;
+}
 .box {
 	padding: 10px;
 }
@@ -178,8 +181,8 @@ body {
 	width: 20%;
 	padding-bottom: 20px;
 	border:1px solid lightgrey;
-	display: inline-block;
-	margin:0 2.2%;
+	box-sizing: border-box;
+	margin:0 2.5%;
 }
 
 .image1{
